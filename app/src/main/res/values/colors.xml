@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0F729B</color>
+    <color name="colorPrimaryDark">#E1E1E1</color>
+    <color name="colorAccent">#1177C9</color>
+
+    <color name="lt_gray">#E4E5E6</color>
+    <color name="link_color">#14729B</color>
+    <color name="dark_gray">#625F5C</color>
+    <color name="body_text_color">#373737</color>
+
+    <color name="selected_item_color">#2665A6CA</color>
+
+</resources>

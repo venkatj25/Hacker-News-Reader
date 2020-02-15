@@ -1,0 +1,20 @@
+
+#Test
+check story type TopStories on app launch
+
+#Test
+check loading of stories on app launch
+
+#Test
+check count of loaded stories
+
+#Test
+show message if internet connection is not available
+
+#Test
+check loading of more stories if user scrolls to bottom
+
+#Test
+check loading of changed storyType if bottom navigation is clicked
+
+#Test

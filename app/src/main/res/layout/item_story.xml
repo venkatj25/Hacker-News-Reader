@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/story_title_text"
+        style="@android:style/Widget.TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textAlignment="textStart"
+        android:textColor="#414141"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="A hybrid thread/fiber task scheduler written C++ 11"/>
+
+    <TextView
+        android:id="@+id/story_link_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/link_color"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/story_title_text"
+        app:layout_constraintTop_toBottomOf="@+id/story_title_text"
+        tools:text="github.com"/>
+
+
+    <TextView
+        android:id="@+id/story_votes_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="6dp"
+        android:drawableStart="@drawable/ic_arrow_upward_black_24dp"
+        android:drawablePadding="2dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/story_link_text"
+        tools:text="135"/>
+
+    <TextView
+        android:id="@+id/comment_count_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:drawableLeft="@drawable/ic_chat_bubble_outline_black_24dp"
+        android:drawablePadding="4dp"
+        android:minWidth="24dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/story_votes_text"
+        app:layout_constraintStart_toEndOf="@+id/story_votes_text"
+        tools:text="27"/>
+
+    <TextView
+        android:id="@+id/story_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:drawablePadding="4dp"
+        android:text="284d"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/comment_count_text"
+        app:layout_constraintStart_toEndOf="@+id/comment_count_text"
+        tools:text="284d"/>
+
+    <TextView
+        android:id="@+id/story_user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/story_time_text"
+        app:layout_constraintStart_toEndOf="@+id/story_time_text"
+        tools:text="headlessclayton"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
