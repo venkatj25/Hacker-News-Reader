@@ -21,9 +21,8 @@ import android.view.ViewGroup;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.jv.hnreader.R;
-import com.jv.hnreader.datamodels.Story;
-import com.jv.hnreader.datamodels.Story.StoryType;
-import com.jv.hnreader.ui.CustomLayoutManager;
+import com.jv.hnreader.models.Story;
+import com.jv.hnreader.models.Story.StoryType;
 
 import java.util.List;
 

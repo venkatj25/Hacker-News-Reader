@@ -3,15 +3,10 @@ package com.jv.hnreader.ui.screens.search;
 import android.content.Context;
 import android.os.Bundle;
 
-import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
-import androidx.core.content.res.ComplexColorCompat;
-import androidx.core.graphics.ColorUtils;
-import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -24,7 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.jv.hnreader.R;
-import com.jv.hnreader.datamodels.Story;
+import com.jv.hnreader.models.Story;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.jv.hnreader.datamodels;
+package com.jv.hnreader.models;
 
 import java.util.Collections;
 import java.util.List;

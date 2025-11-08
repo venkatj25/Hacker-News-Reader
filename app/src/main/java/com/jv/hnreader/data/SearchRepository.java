@@ -1,13 +1,11 @@
 package com.jv.hnreader.data;
 
-import com.jv.hnreader.datamodels.Story;
+import com.jv.hnreader.models.Story;
 import com.jv.hnreader.net.ApiClient;
 
-import java.io.InterruptedIOException;
 import java.util.List;
 
 import io.reactivex.Single;
-import io.reactivex.plugins.RxJavaPlugins;
 
 public class SearchRepository {
     private static final int RESULTS_PER_PAGE = 30;

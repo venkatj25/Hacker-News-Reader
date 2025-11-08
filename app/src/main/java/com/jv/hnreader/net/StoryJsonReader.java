@@ -1,9 +1,8 @@
 package com.jv.hnreader.net;
 
 import android.util.JsonReader;
-import android.util.Log;
 
-import com.jv.hnreader.datamodels.Story;
+import com.jv.hnreader.models.Story;
 
 import java.io.BufferedReader;
 import java.io.IOException;

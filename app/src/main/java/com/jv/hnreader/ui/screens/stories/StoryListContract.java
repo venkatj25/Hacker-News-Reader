@@ -1,6 +1,6 @@
 package com.jv.hnreader.ui.screens.stories;
 
-import com.jv.hnreader.datamodels.Story;
+import com.jv.hnreader.models.Story;
 
 import java.util.List;
 

@@ -2,9 +2,9 @@ package com.jv.hnreader.net;
 
 import android.util.Log;
 
-import com.jv.hnreader.datamodels.Comment;
-import com.jv.hnreader.datamodels.Story;
-import com.jv.hnreader.datamodels.Story.StoryType;
+import com.jv.hnreader.models.Comment;
+import com.jv.hnreader.models.Story;
+import com.jv.hnreader.models.Story.StoryType;
 
 import java.io.IOException;
 import java.io.InputStream;

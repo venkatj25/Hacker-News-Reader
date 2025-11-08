@@ -4,7 +4,7 @@ import android.util.Log;
 
 import com.jv.hnreader.data.EndOfItemsException;
 import com.jv.hnreader.data.StoryRepository;
-import com.jv.hnreader.datamodels.Story.StoryType;
+import com.jv.hnreader.models.Story.StoryType;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;

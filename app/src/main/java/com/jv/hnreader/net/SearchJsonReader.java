@@ -2,16 +2,14 @@ package com.jv.hnreader.net;
 
 import android.util.JsonReader;
 import android.util.JsonToken;
-import android.util.Log;
 
-import com.jv.hnreader.datamodels.Story;
+import com.jv.hnreader.models.Story;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 

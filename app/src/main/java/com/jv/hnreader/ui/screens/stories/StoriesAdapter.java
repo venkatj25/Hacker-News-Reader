@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.jv.hnreader.R;
-import com.jv.hnreader.datamodels.Story;
+import com.jv.hnreader.models.Story;
 import com.jv.hnreader.ui.interfaces.OnLoadDataListener;
 
 import java.util.ArrayList;

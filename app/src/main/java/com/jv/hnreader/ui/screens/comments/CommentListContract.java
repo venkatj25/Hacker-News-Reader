@@ -1,7 +1,7 @@
 package com.jv.hnreader.ui.screens.comments;
 
-import com.jv.hnreader.datamodels.Comment;
-import com.jv.hnreader.datamodels.Story;
+import com.jv.hnreader.models.Comment;
+import com.jv.hnreader.models.Story;
 
 import java.util.List;
 

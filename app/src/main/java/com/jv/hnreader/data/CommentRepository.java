@@ -1,15 +1,13 @@
 package com.jv.hnreader.data;
 
-import com.jv.hnreader.datamodels.Comment;
+import com.jv.hnreader.models.Comment;
 import com.jv.hnreader.net.ApiClient;
 
-import java.io.InterruptedIOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import io.reactivex.Observable;
 import io.reactivex.Single;
-import io.reactivex.plugins.RxJavaPlugins;
 import io.reactivex.schedulers.Schedulers;
 
 public class CommentRepository {

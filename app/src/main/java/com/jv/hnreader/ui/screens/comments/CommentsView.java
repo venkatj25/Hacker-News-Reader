@@ -8,8 +8,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.jv.hnreader.R;
-import com.jv.hnreader.datamodels.Comment;
-import com.jv.hnreader.datamodels.Story;
+import com.jv.hnreader.models.Comment;
+import com.jv.hnreader.models.Story;
 
 import java.util.List;
 
